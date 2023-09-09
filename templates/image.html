@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block body %}
+<h2> {{the_title}}</h2>
+    <div style="text-align: center; padding: 20px;">
+        <img src="{{ url_for('static', filename='img.png') }}" alt="Image Description">
+    </div>
+
+{% endblock %}
+
+
