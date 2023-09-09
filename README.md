@@ -7,3 +7,19 @@ It is most prudent to use this programme to encode any sensitive communications.
 The key needs to be in the form of a number and an ASCII character, joined together by "_". Eg. "783_f"
 
 Beware, Do not mention the accursed "Bird" in your text, or they will intercept your message. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+My first go at Flask. Just having a bit of fun
