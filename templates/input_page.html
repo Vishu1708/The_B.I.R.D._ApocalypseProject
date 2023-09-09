@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block body %}
+<h2> {{the_title}}</h2>
+    <form method='POST' action='/process'>
+        <table>
+            <p>Use this to submit your request:</p>
+            <tr><td>Your text:</td><td><input name="Text" type="TEXT" width=120></td></tr>
+
+            <tr><td>Key:</td><td><input name="Key" type="TEXT" width=20></td></tr>
+            <tr><td>Encode/Decode:</td><td><select name="Dropdown">
+                <option value="encode">Encode</option>
+                <option value="decode">Decode</option>
+            </select>
+            </td></tr>
+        </table>
+
+        <p><input value="Submit" type="SUBMIT"></p>
+
+    </form>
+
+{% endblock %}

@@ -1,0 +1,107 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting a dark background color */
+body {
+    background-color: #333333;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Adding some spacing */
+body {
+    margin: 20px;
+}
+
+/* Styling headings */
+h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+/* Adding some margin to paragraphs */
+p {
+    margin-bottom: 10px;
+}
+
+/* Styling links */
+a {
+    color: #66ccff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling buttons */
+button {
+    background-color: #66ccff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #3385ff;
+}
+
+/* Adding some padding to lists */
+ul, ol {
+    padding-left: 20px;
+}
+
+/* Styling list items */
+li {
+    margin-bottom: 6px;
+}
+
+/* Adding some border and padding to forms */
+form {
+    border: 1px solid #666666;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Adding margin to form elements */
+input, select {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #666666;
+    box-sizing: border-box;
+}
+
+/* Styling submit buttons */
+input[type="submit"] {
+    background-color: #66ccff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #3385ff;
+}
